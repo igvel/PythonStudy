@@ -8,14 +8,28 @@ d["uid"] = "uid"
 d["id"] = 3
 d[5] = "ivel"
 del d["db"]
-d.clear()
 
 # List of keys
-d.keys()
+print d.keys()
 # List of values
-d.values()
+print d.values()
 # List of tuples
-d.items()
+print d.items()
+
+if "id" in d: print "In Dictionary!"
+
+d.setdefault()
+d.clear()
+print d
+
+# list of tuples per list
+zip([1,2,3],[2,5,3,5],[4,5])
+#[(1, 2, 4), (2, 5, 5)]
+
+# build dictionary from list
+given = ['John', 'Eric', 'Terry', 'Michael']
+family = ['Cleese', 'Idle', 'Gilliam', 'Palin']
+pythons = dict(zip(given, family))
 
 ######################
 # Lists
