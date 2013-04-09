@@ -20,4 +20,4 @@ fsock.close()
 # Shortcut redirect
 print >> sys.stderr, "Error!"
 
-for arg in sys.argvw: print arg
+for arg in sys.argv: print arg
