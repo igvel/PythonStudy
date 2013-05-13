@@ -1,6 +1,6 @@
 import glob
 import os
-from dive.samples.fileinfo import MP3FileInfo
+from dive_2.samples.fileinfo import MP3FileInfo
 
 __author__ = 'ielkin'
 

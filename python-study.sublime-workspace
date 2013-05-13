@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "DiveInto/dive_2/ch4_andor.py",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 242.0,
+		"selected_items":
+		[
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"packate",
+				"Package Control: Disable Package"
+			],
+			[
+				"buil",
+				"Build: Build"
+			],
+			[
+				"ss tc",
+				"Set Syntax: Tcl"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"ah",
+				"Set Syntax: AutoHotKey"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: if"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"lin",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"lint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"package re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"sssh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sst",
+				"Set Syntax: Tcl"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 448.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/IVEL/GitHub/Templates/spring-data-app/uprs-cds-service/target/surefire-reports/com.sitronics.uprs.cds.service.DataServiceTest.txt",
+		"/C/IVEL/GitHub/Templates/README.md",
+		"/C/IVEL/GitHub/Templates/jpa-spring-application/README.TXT",
+		"//sts/storage/TFS_Builds/PaymentSystems/rater/rater_20130423.1/BuildLog.txt",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/dive_2/ch4_introspec.py",
+		"/C/IVEL/AutoHotkey.ahk",
+		"/C/IVEL/!Active/Rater_Install/scripts/common.jacl",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI09.902/readme.txt",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI11.133/readme.txt",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI00.142/specialfolders-readme.txt",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI13.998/readme.txt",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/README.md",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI00.668/pathy-readme.txt",
+		"/C/IVEL/!Inbox/t21032013-old.017",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/dive_2/ch3_types.py",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI07.351/readme.txt",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI00.156/README.mathyresurrected.txt",
+		"/C/IVEL/GitHub/PythonStudy/aaa.js",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/dive_2/ch17_dynamic.py",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/IVEL/GitHub/PythonStudy/.idea/ant.xml",
+		"/C/IVEL/GitHub/PythonStudy/index.html",
+		"/C/Users/ielkin/AppData/Local/Temp/_tc/WEB-INF/applicationContext.xml",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/tutorial_2/classes.py",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/Http Requester/README.md",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/tutorial_2/control.py",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/tutorial_2/data.py",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/tutorial_2/sample.py",
+		"/C/IVEL/GitHub/PythonStudy/tutorial_2/classes.py",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI06.897/README.md",
+		"/C/Users/ielkin/AppData/Local/Temp/Rar$DI00.117/README.md",
+		"/C/IVEL/!Inbox/err.txt",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/C/Temp/index.html",
+		"/C/IVEL/GitHub/PythonStudy/test/test.py",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/Temp/style.css",
+		"/C/IVEL/!Inbox/common_payment_light_v03.pks",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Pristine Packages/Java.sublime-package",
+		"/C/IVEL/@Work/Projects/[МТС Укр] ЕСПОП/05_Testing/CDS_Performance/uprs-cds-soapui-cmdline.txt",
+		"/C/IVEL/GitHub/PythonStudy/DiveInto/tutorial_2/test.js",
+		"/C/Users/ielkin/AppData/Roaming/Sublime Text 2/Packages/User/Python.sublime-settings",
+		"/C/Repos/STS/PaymentSystems/CustomerDataService/trunk/scripts/resources/resources.jacl",
+		"/C/Repos/STS/PaymentSystems/CustomerDataService/trunk/scripts/lib/environment.jacl"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"*.py",
+			"disable",
+			"Lorem",
+			"dolor",
+			"vinta",
+			"noun",
+			"\\(.+\\)",
+			"(noun)",
+			"noun",
+			"aeiou",
+			"search",
+			"(\"sax\")",
+			"<!--",
+			"com",
+			"examples",
+			"args",
+			"    for x in range(2, n):\n        if n % x == 0:\n            print n, 'equals', x, '*', n/x\n            break\n    else:\n        # loop fell through without finding a factor\n        print n, 'is a prime number'\n",
+			"print",
+			"abracadabra",
+			"print",
+			"description",
+			"attributes",
+			"\n			",
+			"lindex",
+			"resource"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "DiveInto/dive_2/ch4_andor.py",
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 187.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ch4",
+				"DiveInto/dive_2/ch4_andor.py"
+			],
+			[
+				"ch",
+				"DiveInto/dive_2/ch4_introspec.py"
+			],
+			[
+				"",
+				"DiveInto/dive_2/ch17_dynamic.py"
+			],
+			[
+				"an",
+				".idea/ant.xml"
+			],
+			[
+				"con",
+				"DiveInto/tutorial_2/control.py"
+			],
+			[
+				"en",
+				"lib/environment.jacl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Repos/STS/PaymentSystems/TariffService/trunk/rater.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true
+}

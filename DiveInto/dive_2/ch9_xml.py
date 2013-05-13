@@ -33,5 +33,6 @@ xmldoc = minidom.parse('samples/kgp/russiansample.xml')
 title = xmldoc.getElementsByTagName('title')[0].firstChild.data
 print title
 
+# Unicode literal
 s = u'Игорь'
 print s

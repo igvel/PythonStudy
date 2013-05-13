@@ -18,7 +18,6 @@ print d.items()
 
 if "id" in d: print "In Dictionary!"
 
-d.setdefault()
 d.clear()
 print d
 
@@ -51,6 +50,7 @@ li[:]
 li.append("new")
 li.insert(2, "new")
 li.extend(["two", "elements"])
+print li
 
 #Searching
 li.index("new")

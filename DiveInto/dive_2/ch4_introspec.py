@@ -1,6 +1,6 @@
 import __builtin__
 from apihelper import info
-from dive import statsout
+from dive_2 import statsout
 import odbchelper
 
 

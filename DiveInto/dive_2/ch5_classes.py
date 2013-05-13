@@ -1,4 +1,4 @@
-from dive.samples import fileinfo
+from dive_2.samples import fileinfo
 
 __author__ = 'ielkin'
 

@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from dive.soundex import soundex1a
+from dive_2.soundex import soundex1a
 
 __author__ = 'ielkin'
 
