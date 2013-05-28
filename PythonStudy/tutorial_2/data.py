@@ -25,7 +25,7 @@ print {x: x**2 for x in (2, 4, 6)}
 # like function params
 d = dict(sape=4139, guido=4127, jack=4098)
 print d
-# Unpacking
+# Unpacking  dictionary
 x, y, z = d
 print x, y, z
 
@@ -43,9 +43,18 @@ print words
 t = ('cat', 'window', 'defenestrate')
 t2 = t[:]
 print t, t2
-# Unpacking
+# Unpacking list
 x, y, z = t
 print x, y, z
+
+# String conversion and evaluation
+l = (1,2,3)
+print l
+s = `l`
+s2 = repr(l)
+print s, s2
+l2 = eval(s)
+print l2
 
 def main():
     print 'Test!'
