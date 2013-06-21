@@ -1,9 +1,19 @@
 """Common settings and globals."""
-
-
+import os
 from os.path import abspath, basename, dirname, join, normpath
 from sys import path
 
+from django.core.exceptions import ImproperlyConfigured
+
+ENV_MSG_TEMPLATE = "Set the %s environment variable"
+
+# Use this function to get environment variables
+def get_env_variable(var_name):
+    try:
+        return os.environ[var_name]
+    except KeyError:
+        error_msg = ENV_MSG_TEMPLATE % var_name
+        raise ImproperlyConfigured(error_msg)
 
 ########## PATH CONFIGURATION
 # Absolute filesystem path to the Django project directory:

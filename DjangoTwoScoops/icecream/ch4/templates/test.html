@@ -1,0 +1,60 @@
+# if / endif
+{% if not athlete_list or coach_list %}
+    There are no athletes or there are some coaches.
+{% endif %}
+
+# No elifs - use nested
+{% if athlete_list %}
+    <p>Here are the athletes: {{ athlete_list }}.</p>
+{% else %}
+    <p>No athletes are available.</p>
+    {% if coach_list %}
+        <p>Here are the coaches: {{ coach_list }}.</p>
+    {% endif %}
+{% endif %}
+
+# for
+{% for athlete in athlete_list %}
+    <h1>{{ athlete.name }}</h1>
+    <ul>
+        {% for sport in athlete.sports_played %}
+            <li>{{ sport }}</li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+
+# forloop special var
+{% for item in todo_list %}
+    <p>{{ forloop.counter }}: {{ item }}</p>
+{% endfor %}
+
+# Empty
+{% for athlete in athlete_list %}
+    <p>{{ athlete.name }}</p>
+{% empty %}
+    <p>There are no athletes. Only computer programmers.</p>
+{% endfor %}
+
+# ifequal/ifnotequal   Only template variables, strings, integers, and decimal numbers are allowed
+{% ifequal section 'sitenews' %}
+    <h1>Site News</h1>
+{% else %}
+    <h1>No News Here</h1>
+{% endifequal %}
+
+{# This is a comment #}
+
+{# This is not
+a comment #}
+
+{% comment %}
+This is a
+multi-line comment.
+{% endcomment %}
+
+{# Filters #}
+{{ my_list|first|upper }}
+# Params
+{{ bio|truncatewords:"30" }}
+
+

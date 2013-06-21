@@ -6,7 +6,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^$', TemplateView.as_view(template_name='base.html')),
+    url(r'^$', TemplateView.as_view(template_name='ch4base.html')),
 
     # Examples:
     # url(r'^$', 'icecream.views.home', name='home'),
@@ -17,4 +17,8 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
+
+    #"Django Book" Apps URLs:
+    url(r'^ch3/', include('ch3.urls', namespace="ch3")),
+    url(r'^ch4/', include('ch4.urls', namespace="ch4")),
 )
