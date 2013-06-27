@@ -1,13 +1,14 @@
 # -*- coding: UTF-8 -*-
-from ch4 import views
+from django.views.generic import TemplateView
+from ch5 import views
 
 __author__ = 'ielkin'
 
 from django.conf.urls import patterns, url
 
 urlpatterns = patterns('',
-                url(r'^$', views.hello, name='index'),
-                url(r'^hello/$', views.hello, name='hello'),
-                url(r'^time/$', views.current_datetime, name='current_time'),
-                url(r'^time/plus/(\d{1,2})$', views.hours_ahead, name='time_plus'),
+                url(r'^$', TemplateView.as_view(template_name="base.html"), name='index'),
+                url(r'^search/$', views.search, name='search'),
+                url(r'^contact/$', views.contact, name='contact'),
+                url(r'^thanks/$', TemplateView.as_view(template_name="thanks.html"), name='thanks'),
 )

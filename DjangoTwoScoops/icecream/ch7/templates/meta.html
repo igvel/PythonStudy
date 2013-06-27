@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Metadata from {{ path }}{% endblock %}
+
+{% block content %}
+    <p>Metadata from the request {{ path }}:</p>
+    <ul>
+    {% for k,v in meta.items %}
+        <li>{{ k }}: {{ v }}</li>
+    {% empty %}
+        No headers found.
+    {% endfor %}
+    </ul>
+{% endblock %}

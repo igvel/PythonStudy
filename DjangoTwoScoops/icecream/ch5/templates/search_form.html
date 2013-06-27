@@ -1,0 +1,14 @@
+{% extends "ch5base.html" %}
+
+{% block title %}Search books{% endblock %}
+
+{% block content %}
+    <h2>Search books</h2>
+    {% if message %}
+        <p style="color: red;">{{ message }}</p>
+    {% endif %}
+    <form action="" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search">
+    </form>
+{% endblock %}
