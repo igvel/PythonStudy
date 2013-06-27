@@ -21,4 +21,5 @@ urlpatterns = patterns('',
     #"Django Book" Apps URLs:
     url(r'^ch3/', include('ch3.urls', namespace="ch3")),
     url(r'^ch4/', include('ch4.urls', namespace="ch4")),
+    url(r'^ch5/', include('ch5.urls', namespace="ch5")),
 )

@@ -174,6 +174,8 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # Localization support
+    'django.middleware.locale.LocaleMiddleware',
 )
 ########## END MIDDLEWARE CONFIGURATION
 

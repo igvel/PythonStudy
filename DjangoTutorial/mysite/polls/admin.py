@@ -20,6 +20,7 @@ from polls.models import Poll, Choice
 # Single page for Poll with choices
 # Stacked choices
 #class ChoiceInline(admin.StackedInline):
+
 # Tabled choices
 class ChoiceInline(admin.TabularInline):
     model = Choice
