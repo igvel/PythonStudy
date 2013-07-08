@@ -1,17 +1,14 @@
 # Create your views here.
 from django.core.mail import send_mail
 from django.core.urlresolvers import reverse
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from ch5.forms import ContactForm
-from ch5.models import Book
-
-
-def search_form(request):
-    return render(request, 'search_form.html')
+from ch5.models import Book, Author
 
 
 def search(request):
+    """Search view"""
     message = None
     if 'q' in request.GET:
         q = request.GET['q']
@@ -62,3 +59,12 @@ def contact(request):
     else:
         form = ContactForm(initial={'subject': 'I love your site!'})
     return render(request, 'contact_form.html', {'form': form})
+
+
+def books_author(request):
+    author = Author.objects.all()[0]
+    return render(request, 'books_author.html', {'author': author})
+
+
+def debug(request):
+    return HttpResponse("This is debug message!")

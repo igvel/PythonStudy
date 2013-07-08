@@ -55,6 +55,7 @@ INSTALLED_APPS += (
     'ch5',
     'southtut',
     'ch7',
+    'ch9',
 )
 
 # See: https://github.com/django-debug-toolbar/django-debug-toolbar#installation

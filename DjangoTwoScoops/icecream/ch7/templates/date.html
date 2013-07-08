@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+# Loading custom template tags
+{% load custom_tags %}
+
+{% block title %}Date{% endblock %}
+
+{% block content %}
+    Cut message: {{ message|my_cut:" " }}
+    <p>Some date is {{ day }} of {{ month }}</p>
+    <p>Today is {% my_current_time "%Y-%m-%d %I:%M %p" %}</p>
+    {% my_current_time_2 "%Y-%m-%d %I:%M %p" as cur_time %}
+    <p>Today is {{ cur_time }}</p>
+    <p>Today is simple {% my_simple_time "%Y-%m-%d %I:%M %p" %}</p>
+{% endblock %}
