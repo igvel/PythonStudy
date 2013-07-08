@@ -1,0 +1,6 @@
+{% extends 'ch5base.html'%}
+{% load books_tags %}
+{% block content %}
+    <p>Books by author: {{ author }}</p>
+    {% books_for_author author %}
+{% endblock %}
