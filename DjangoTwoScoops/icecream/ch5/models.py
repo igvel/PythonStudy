@@ -26,11 +26,17 @@ class Author(models.Model):
         return u'%s %s' % (self.first_name, self.last_name)
 
 
+class BookManager(models.Manager):
+    def title_count(self, keyword):
+        return self.filter(title__icontains=keyword).count()
+
 class Book(models.Model):
     title = models.CharField(max_length=100)
     authors = models.ManyToManyField(Author)
     publisher = models.ForeignKey(Publisher)
     publication_date = models.DateField(null=True, blank=True)
+    # Custom Model manager
+    objects = BookManager()
 
     def __unicode__(self):
         return self.title
